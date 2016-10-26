@@ -340,7 +340,7 @@ section h3.section-subheading {
 
 /***PROGRAMS SECTION***/
 #programs .programs-item {
-    margin: 0 0 15px;
+    margin: 0 0 25px;
     right: 0;}
 #programs .programs-item .programs-link {
     display: block;
@@ -397,6 +397,18 @@ section h3.section-subheading {
     text-transform: none;}
 .list-style {
     text-align: left;}
+i.circle1 {
+    color: #822400}
+i.circle2 {
+    color: }
+i.circle3 {
+    color: #00570D}
+i.circle4 {
+    color: #002F30}
+i.circle5 {
+    color: #23003D}
+i.circle6 {
+    color: }
 
 
 
@@ -419,6 +431,11 @@ section h3.section-subheading {
     text-transform: none;}
 .staff-member p {
     margin-top: 0;}
+.staff-member a {
+    font-size: 11px;
+    word-wrap: break-word;}
+.staff-member i {
+    padding-right: 5px;}
 
 
 
@@ -599,7 +616,7 @@ ul.social-buttons li a:active {
     text-align: center;}
 .staff-modal .modal-content h2 {
     margin-bottom: 15px;
-    font-size: 3em;}
+    font-size: calc(1.5em + 2vw);}
 .staff-modal .modal-content p {
     margin-bottom: 0px;}
 .staff-modal .modal-content p.item-intro {
@@ -698,7 +715,18 @@ iframe.goog-te-menu-frame {
 /*From Large to Small Screens*/
 @media (min-width: 1200px) {
     #programs .programs-item {
-        min-height: 287px;}
+        min-height: 297px;}
+
+    #teachers_staff .staff-member {
+        min-height: 300px;}
+    #ece_staff .staff-member {
+        min-height: 305px;}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    #programs .programs-item {
+        min-height: 280px;}
+    .staff-modal .staff-member {
+        min-height: 273px;}
 }
 @media (min-width: 991px) {
     .navbar-custom .navbar-brand {
@@ -726,6 +754,9 @@ iframe.goog-te-menu-frame {
 
     #programs .programs-item {
     min-height: 266px;}
+
+    #ece_staff .staff-member {
+        min-height: 300px;}
 }
 @media (min-width: 768px) {
     .navbar-custom {
@@ -751,7 +782,7 @@ iframe.goog-te-menu-frame {
         font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-style: italic;
         font-size: 40px;
-        line-height: 40px;
+        line-height: 50px;
         margin-bottom: 25px;}
     header .intro-text .intro-heading {
         font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -761,26 +792,36 @@ iframe.goog-te-menu-frame {
         line-height: 75px;
         margin-bottom: 50px;}
 
-
     section {
         padding: 150px 0;}
-
 
     #programs .programs-item {
         margin: 0 0 30px;}
 }
 @media (min-width: 481px) and (max-width: 767px) {
-    .staff-member img {
+    .staff-member a img {
         max-width: 225px;}
     .navbar-toggle {
-        padding: 17px 15px;
-    }
+        padding: 17px 15px;}
+    #staff .staff-member {
+        min-height: 295px;}
 }
 @media (max-width: 480px) {
     .navbar-brand .logo {
         max-width: 52px;}
     .navbar-custom .navbar-brand {
         font-size: 1.75em;}
+
+    #staff .staff-member {
+        min-height: 280px;}
+    #support_staff .staff-member {
+        min-height: 298px;}
+    #ece_staff .staff-member {
+        min-height: 310px;}
+}
+@media (max-width: 424px) {
+    #staff .staff-member {
+        min-height: 250px;}
 }
 @media (max-width: 360px) {
     .navbar-brand .logo {
