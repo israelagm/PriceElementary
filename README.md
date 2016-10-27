@@ -2,7 +2,12 @@
 
 ## A Website for Price Elementary School
 
-### v1.0
+### v0.0
 Site is ready to be previewed.
 
 Still need photos to be sent and lorem ipsum text to be replaced with real text in some places.
+
+### v1.0
+Site is ready to go live.
+
+Will still need adiitional content missing from program section.
