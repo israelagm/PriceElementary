@@ -436,6 +436,10 @@ i.circle6 {
     word-wrap: break-word;}
 .staff-member i {
     padding-right: 5px;}
+.staff-member.principal {
+    margin-bottom: 0px;}
+.principal-text {
+    margin-bottom: 50px;}
 
 
 
@@ -551,13 +555,17 @@ ul.social-buttons li a:active {
 .programs-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 3em;}
+.programs-modal .modal-content p.text-muted {
+    margin-bottom: 30px;
+    text-align: center;}
 .programs-modal .modal-content p {
-    margin-bottom: 30px;}
+    margin-bottom: 15px;
+    text-align: left;}
 .programs-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 16px;}
+    font-size: 22px;}
 .programs-modal .modal-content ul.list-inline {
     margin-bottom: 30px;
     margin-top: 0;}
