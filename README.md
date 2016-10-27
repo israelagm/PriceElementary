@@ -10,4 +10,4 @@ Still need photos to be sent and lorem ipsum text to be replaced with real text 
 ### v1.0
 Site is ready to go live.
 
-Will still need adiitional content missing from program section.
+Will still need additional content that is missing from program section.
