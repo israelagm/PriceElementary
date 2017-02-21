@@ -11,3 +11,10 @@ Still need photos to be sent and lorem ipsum text to be replaced with real text 
 Site is ready to go live.
 
 Will still need adiitional content missing from program section.
+
+### v1.1
+Photos added for staff
+
+Social Media links update
+
+Added Comprehensive School Improvement Plan info under Parent Section
